@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <title>Пранки</title>
+      <style>
+         /*Убрать полосу прокрутки у элемента*/
+         .element::-webkit-scrollbar {
+             width: 0;
+         }
+
+/*Убрать полосу прокрутки для всей страницы*/
+         ::-webkit-scrollbar {
+              width: 0;
+         }
+         .wait{
+            cursor: wait;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+         }
+         .body{
+            color: black;
+            cursor: wait;
+            background-color: black;
+         }
+      </style>
+   </head>
+   <body>
+      <canvas width="99999" height="10000" class="wait">
+      </canvas>
+      <div>
+         <label>site by: sculk playz</label>
+         <a href="index.html"> Домой</a>
+      </div>
+   </body>
+</html>

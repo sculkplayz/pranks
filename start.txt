@@ -1,0 +1,12 @@
+Make sure:
+-Python 12
+-Windows, mac-os, linux
+Create new file called:
+start.py
+Make this program:
+while True:
+    lol = input('Enter password for game: ')
+    if lol == '12345':
+        print('Game starts now')
+        input()
+        break
